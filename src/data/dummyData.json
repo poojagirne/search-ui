@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "type": "person",
+    "title": "Caroline Dribsson",
+    "subtitle": "Active now",
+    "avatar": "https://i.pravatar.cc/40?img=1"
+  },
+  {
+    "id": 2,
+    "type": "folder",
+    "title": "Random Michal Folder",
+    "subtitle": "in Photos • Edited 12m ago",
+    "files": 12
+  },
+  {
+    "id": 3,
+    "type": "file",
+    "title": "crative_file_frankdies.jpg",
+    "subtitle": "in Photos/Assets • Edited 12m ago"
+  },
+  {
+    "id": 4,
+    "type": "person",
+    "title": "Kristinge Karand",
+    "subtitle": "Active 2d ago",
+    "avatar": "https://i.pravatar.cc/40?img=2"
+  },
+  {
+    "id": 5,
+    "type": "file",
+    "title": "files_krande_michelle.avi",
+    "subtitle": "in Videos • Added 12m ago"
+  },
+    {
+    "id": 6,
+    "type": "person",
+    "title": "Adam Cadribeam",
+    "subtitle": "Active 2d ago",
+    "avatar": "https://i.pravatar.cc/40?img=2"
+  }
+]

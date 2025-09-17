@@ -1,0 +1,64 @@
+.result-item {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  opacity: 0;
+  animation: slideIn 0.4s ease forwards;
+  gap: 0.8rem;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-item:hover {
+  background: #f9f9f9;
+  transform: scale(1.01);
+  transition: transform 0.2s ease;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 15%;
+}
+
+.icon {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+.info h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.info p {
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.file-count {
+  margin-left: auto;
+  background: #eee;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
