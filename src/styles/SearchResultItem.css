@@ -88,6 +88,6 @@
   background-color: #4caf50; /* green */
 }
 
-.status-dot.idle {
+.status-dot.offline {
   background-color: #ff9800; /* orange */
 }
